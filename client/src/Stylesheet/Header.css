@@ -1,0 +1,60 @@
+.Header_container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding:2em;
+    box-shadow: 0px 0px 5px #000;
+}
+
+.Header_leftContainer{
+    width: 20%;
+}
+.left-logo{
+   width:36%; 
+}
+.Header_centerContainer{
+    display: flex;
+    align-items: center;
+    border: 2px solid black;
+    width: 60%;
+}
+
+
+.Header_searchInput{
+    flex: 1;
+    border:none;
+    padding: 0.5em 2em;
+  }
+
+
+  .Header_center_search_icon{
+      border-left: 2px solid grey;
+      background-color: black;
+      color: white;
+      width: 2em;
+      padding:0.4em;
+      
+  }
+
+  .Header_rightContainer
+  {
+      display:flex;
+      align-items: center;
+      justify-content:space-between;
+      
+  }
+.login{
+  margin-right: 0.8rem;
+}
+.sell{
+border-radius: 999px;
+padding:0.5rem 2rem;
+font-weight: bold;
+}
+
+.sell:hover{
+    transition:ease-in-out 0.5s;
+    background-color:black;
+    color:white;
+ }

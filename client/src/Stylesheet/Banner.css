@@ -1,0 +1,30 @@
+.banner_container{
+    margin-top:20px
+}
+.banner_container img{
+    width:90%;
+    height:auto;
+}
+.banner{
+text-align: center;
+}
+.catgoriesavailable{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2em;
+}
+/* .categorytitle{
+    text-align: center;
+} */
+.actualcategory{
+    display: flex;
+    justify-content:space-evenly;
+    margin-right:10rem;
+    margin-top:2rem;
+}
+
+.CategoriesinStock
+{
+    margin-left:10rem;
+}
